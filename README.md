@@ -1,24 +1,18 @@
 # Welcome to your Lovable project
 
-## Project info
+Key Features:
+Responsive design that works on all devices
+Smooth scrolling navigation with active link highlighting
+Mobile hamburger menu
+Animated sections with intersection observer
+Gradient backgrounds and modern styling
+Interactive elements and hover effects
+Font Awesome icons for social links and UI elements
 
-**URL**: https://lovable.dev/projects/fa208369-27cd-42ce-879a-66ed10918a83
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/fa208369-27cd-42ce-879a-66ed10918a83) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Structure:
+index.html - Main HTML structure with all sections
+styles.css - Complete styling with responsive design and animations
+script.js - JavaScript for interactivity, animations, and dynamic content
 
 Follow these steps:
 
