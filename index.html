@@ -1,25 +1,205 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chitrika B S - Portfolio</title>
-    <meta name="description" content="Portfolio website of Chitrika B S - Full-Stack Developer & VR Enthusiast" />
-    <meta name="author" content="Chitrika B S" />
+    <meta name="description" content="Portfolio website of Chitrika B S - Full-Stack Developer & VR Enthusiast">
+    <meta name="author" content="Chitrika B S">
+    
+    <meta property="og:title" content="Chitrika B S - Portfolio">
+    <meta property="og:description" content="Portfolio website of Chitrika B S - Full-Stack Developer & VR Enthusiast">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">CHITRIKA B S</h1>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-    <meta property="og:title" content="Chitrika B S - Portfolio" />
-    <meta property="og:description" content="Portfolio website of Chitrika B S - Full-Stack Developer & VR Enthusiast" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h1 class="hero-title">CHITRIKA B S</h1>
+                <p class="hero-subtitle">Full-Stack Developer & VR Enthusiast</p>
+                <p class="hero-description">
+                    Pre-final year undergraduate student with practical experience in web development and a strong interest in growing beyond my current skill set. 
+                    Always ready to explore new technologies and expand into different domains.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+                <div class="social-links">
+                    <a href="mailto:bschitrika7@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/chitrikabs" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Chitrikaa" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="education-item">
+                            <h4>B.Tech Computer Science and Business Systems</h4>
+                            <p>KPR Institute of Engineering and Technology</p>
+                            <span class="highlight">CGPA: 7.99</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="education-item">
+                            <h4>Higher Secondary Certificate</h4>
+                            <p>Vijaya Vidhyalaya Matric. Hr. Sec. School</p>
+                            <span class="highlight">88.8% (25% Scholarship for 180 cutoff)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Skills & Expertise</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="skills-grid" id="skills-grid">
+                            <!-- Skills will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Leadership</h2>
+            
+            <div class="experience-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>UI/UX Intern (Virtual)</h3>
+                        <p class="company">Interncareer</p>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Designed web and mobile UI using Figma for a data analytics dashboard and a travel booking app, 
+                            focusing on user-friendly and responsive interfaces. Strengthened proficiency in Figma and UI/UX design principles 
+                            through hands-on internship experience.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Leadership & Community Service</h3>
+                        <p class="company">Various Organizations</p>
+                    </div>
+                    <div class="card-content">
+                        <div class="leadership-item">
+                            <h4>Secretary - IEEE - SSIT KPRIET SB</h4>
+                            <p>Leading technical initiatives and student engagement</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="leadership-item">
+                            <h4>Chief Volunteer - NSS KPRIET</h4>
+                            <p>Participated in NSS State Level Adventure Camp'25, Yercaud</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-description">
+                I thrive in collaborative environments and believe in the power of teamwork to achieve shared goals and create meaningful impact. 
+                Let's discuss how we can work together!
+            </p>
+            
+            <div class="contact-buttons">
+                <a href="mailto:bschitrika7@gmail.com" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i>
+                    Email Me
+                </a>
+                
+                <div class="contact-social">
+                    <a href="https://www.linkedin.com/in/chitrikabs" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    
+                    <a href="https://github.com/Chitrikaa" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Chitrika B S. Built with passion and modern web technologies.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
