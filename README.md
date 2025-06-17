@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to your project
 
 Key Features:
 Responsive design that works on all devices
